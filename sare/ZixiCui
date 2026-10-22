@@ -1,0 +1,40 @@
+numbers = [3,7,2,9,4,1,8]
+numbers.append(5)
+numbers.remove(9)
+numbers.sort()
+numbers.reverse()
+numbers.insert(2,6)
+print(numbers.index(4))
+print(numbers)
+
+my_tuple = (15,"Python",3.14,True,42,False)
+print(my_tuple.index("Python"))
+print(my_tuple.count(True))
+print(my_tuple[1:5])
+
+student_marks = {
+    "Alice": 85,
+    "Bob": 72,
+    "Charlie": 90,
+    "David": 68,
+    "Emma": 77,
+    "Fiona": 95,
+    "George": 81,
+    "Hannah": 74,
+    "Ian": 88,
+    "Jack": 63,
+    "Kate": 92,
+    "Leo": 70,
+    "Mary": 84,
+    "Noah": 79,
+    "Olivia": 86
+    }
+student_marks["Frank"] = 60
+for name, mark in student_marks.items():
+    print(name, ":", mark)
+
+Mutable objects are objects that can be changed after they are created. For example, lists and dictionaries are mutable.
+
+A local variable is a variable created inside a function. It can normally only be accessed within that function.
+
+A global variable is a variable created outside functions. It can normally be accessed from different parts of the program.
